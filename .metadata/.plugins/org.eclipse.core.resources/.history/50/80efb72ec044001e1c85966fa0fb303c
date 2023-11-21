@@ -1,0 +1,19 @@
+package seleniumbymkt;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class GroTechMind {
+
+	public static void main(String[] args) {
+
+		ChromeDriver driver=new ChromeDriver();
+		driver.get("https://grotechminds.com/registration/");
+		driver.manage().window().maximize();
+		driver.findElement(By.id("1")).sendKeys("Sayali.navgire@gmail.com");
+		driver.findElement(By.id("3")).sendKeys("Sayali@1904");
+		driver.findElement(By.name("text-398")).sendKeys("Navgire");
+		driver.findElement(By.name("email")).sendKeys("1904");
+	}
+
+}

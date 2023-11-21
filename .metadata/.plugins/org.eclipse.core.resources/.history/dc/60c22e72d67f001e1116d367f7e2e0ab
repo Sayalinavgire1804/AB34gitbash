@@ -1,0 +1,25 @@
+package ImplicitExplicitwait;
+
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.Test;
+
+public class Google {
+	@Test
+	public void sc1()
+	{
+	ChromeDriver d1=new ChromeDriver();
+	d1.get("https:google.com");
+	d1.manage().window().maximize();
+	WebDriverWait d2=new WebDriverWait(d1,Duration.ofSeconds(10));
+	d2.until(ExpectedConditions.titleIs("Google"));
+	d1.findElement(By.id("APjFqb")).sendKeys("India");
+	
+	}
+
+}

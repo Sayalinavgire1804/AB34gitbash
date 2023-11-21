@@ -1,0 +1,23 @@
+package Priintoptions;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class Autosprint {
+	@Test
+	public void scenario1()
+	{
+		
+		ChromeDriver driver=new ChromeDriver();
+		driver.get("https://www.amazon.in/");
+		driver.manage().window().maximize();
+		driver.navigate().refresh();
+		WebElement search=driver.findElement(By.id("twotabsearchtextbox"));
+		search.sendKeys("Mobilies"))
+		Thread.sleep(3000);
+		
+	}
+
+}

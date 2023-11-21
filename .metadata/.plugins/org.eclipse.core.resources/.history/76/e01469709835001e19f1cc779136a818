@@ -1,0 +1,37 @@
+package Practice;
+
+public class SIB {
+	static
+	{
+		System.out.println("I am SIB");
+		
+	}
+	static
+	{
+		System.out.println("I am SIB");
+		
+	}
+	
+	{
+		System.out.println("I am IIB");
+		
+	}
+	{
+		System.out.println("I am IIB");
+	}
+	SIB()
+	{
+		System.out.println("I am Non para constructor");
+		
+	}
+	SIB(int a)
+	{
+		System.out.println("I am  para constructor");
+		
+	}
+	public static void main(String[] args) {
+		
+		SIB s1=new SIB();
+	}
+
+}

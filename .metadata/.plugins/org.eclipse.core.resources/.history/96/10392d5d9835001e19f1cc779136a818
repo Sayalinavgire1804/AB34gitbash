@@ -1,0 +1,32 @@
+package Practice;
+
+public class SIB {
+	static
+	{
+		
+	}
+	static
+	{
+		
+	}
+	
+	{
+		
+	}
+	{
+		
+	}
+	SIB()
+	{
+		
+	}
+	SIB(int a)
+	{
+		
+	}
+	public static void main(String[] args) {
+		
+		SIB s1=new SIB();
+	}
+
+}

@@ -1,0 +1,27 @@
+package Throws;
+class Exception1
+{
+	
+	void add() throws ArithmeticException
+	{ 
+		try {
+			int c=0/1;
+			System.err.println(c);
+		}
+		catch(ArithmeticException e1)
+		{
+			System.out.println("handling");
+		}
+	}
+}
+
+public class Age2 
+{
+
+	public static void main(String[] args) {
+		Exception1 e1=new Exception1();
+				e1.add();
+
+	}
+
+}

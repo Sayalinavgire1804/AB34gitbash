@@ -1,0 +1,17 @@
+package Amazon_Test;
+
+
+public class TestCae2 extends LaunchAndQuite {
+	@Test
+	public void login_amazonapplication()
+	{
+	
+	Amazon_Login a1 =new Amazon_Login(driver);
+	a1.un();
+	a1.continueButton();
+	a1.pw();
+	a1.signInbuttonMethod();
+	driver.navigate().refresh();
+
+}
+}

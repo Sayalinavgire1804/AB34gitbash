@@ -1,0 +1,13 @@
+package PaymentOption;
+
+import org.testng.annotations.Test;
+
+public class CreditCardPayment extends LaunchandQuite {
+	
+	@Test
+	public void Payment()
+	{
+		
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 3 elements from project &apos;SeleniumClass&apos;&#x0D;&#x0A;- Original project: &apos;SeleniumClass&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Annotations.GoogleLaunchNorway.java&#x0D;&#x0A;     Annotations.GoogleLaunchShrilanka.java&#x0D;&#x0A;     Annotations.GoogleLaunchUS.java" description="Delete elements" element1="/src&lt;Annotations{GoogleLaunchUS.java" element2="/src&lt;Annotations{GoogleLaunchNorway.java" element3="/src&lt;Annotations{GoogleLaunchShrilanka.java" elements="3" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1694951871700" subPackages="false" version="1.0"/>
+</session>

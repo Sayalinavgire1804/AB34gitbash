@@ -1,0 +1,48 @@
+package ParallelandCrossTesting;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
+
+public class Sample {
+	WebDriver driver;
+	public void Testcase1()
+	{
+		 driver=new FirefoxDriver();//upcast
+		 driver.get("https://www.google.com/");
+		 WebElement search=driver.findElement(By.id("APjFqb"));
+		 search.sendKeys("handewadi");
+		 search.sendKeys(Keys.ENTER);
+
+	}
+	public void Testcase2()
+	{
+		 driver=new FirefoxDriver();//upcast
+		 driver.get("https://www.google.com/");
+		 WebElement search=driver.findElement(By.id("APjFqb"));
+		 search.sendKeys("handewadi");
+		 search.sendKeys(Keys.ENTER);
+
+	}
+	public void Testcase3()
+	{
+		 driver=new EdgeDriver();//upcast
+		 driver.get("https://www.google.com/");
+		 WebElement search=driver.findElement(By.id("APjFqb"));
+		 search.sendKeys("handewadi");
+		 search.sendKeys(Keys.ENTER);
+	}
+	public static void main(String[] args) {
+		Sample s1=new Sample();
+		s1.Testcase1();
+		s1.Testcase2();
+		s1.Testcase3();
+		
+	}
+
+}

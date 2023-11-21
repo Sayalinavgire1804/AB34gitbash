@@ -1,0 +1,28 @@
+package Practice;
+class AuthenticationLog{
+
+	private String Username="Google@gmail.com";
+	private String Password="1234";
+	private int age34;
+	public void setUsername(String Username)
+	{
+		this.Username=Username;
+	}
+	public String getUsername()
+	{
+		return Username;
+		
+	}
+	
+	
+}
+
+public class Encapsulation1 {
+	
+
+	public static void main(String[] args) {
+
+		
+	}
+
+}

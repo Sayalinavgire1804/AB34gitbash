@@ -1,0 +1,33 @@
+package TestNGGrouping1;
+
+import org.testng.annotations.Test;
+
+public class grouping_class {
+	@Test(groups= {"Smoke"})
+	public void scenario1()
+	{
+		
+	}
+	@Test
+	public void scenario2()
+	{
+		
+	}
+	@Test
+	public void scenario3()
+	{
+		
+	}
+	@Test
+	public void scenario4()
+	{
+		
+	}
+	@Test
+	public void scenario5()
+	{
+		
+	}
+	
+
+}

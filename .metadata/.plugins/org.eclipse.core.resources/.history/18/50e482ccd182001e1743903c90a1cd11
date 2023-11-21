@@ -1,0 +1,26 @@
+package TestNGListners1;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Listeners;
+import org.testng.annotations.Test;
+
+import TestNGListners.Reporting;
+
+@Listeners(Reporting1.class)
+public class TestCase1 {
+
+	@Test
+	public static void scenarios1()
+	{
+		 ChromeDriver driver =new ChromeDriver();
+		WebElement search= driver.findElement(By.xpath("//textarea[@id='APjFqb']"));
+		search.sendKeys("America");
+		search.sendKeys(Keys.ENTER);
+		
+	}
+
+}

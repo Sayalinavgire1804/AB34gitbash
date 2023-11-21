@@ -1,0 +1,14 @@
+package PaymentOption;
+
+import org.testng.annotations.BeforeMethod;
+
+public class LaunchandQuite extends DTDGetuid {
+	
+	@BeforeMethod
+	public void Launch()
+	{
+		
+		
+	}
+
+}

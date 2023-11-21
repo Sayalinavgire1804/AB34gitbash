@@ -1,0 +1,10 @@
+package Practice;
+
+public class MultilevelInheritanceCity {
+
+	public static void main(String[] args) {
+
+		
+	}
+
+}

@@ -1,0 +1,15 @@
+package Practice;
+
+public class Whileloop {
+
+	public static void main(String[] args) {
+ int a=7;
+		 while(a<12)
+		 {
+			 System.out.println("I am Adult");
+			 a++
+		 }
+		 
+	}
+
+}

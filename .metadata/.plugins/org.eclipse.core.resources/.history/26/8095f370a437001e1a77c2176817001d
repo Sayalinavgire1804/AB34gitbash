@@ -1,0 +1,19 @@
+package Throws;
+
+public class Ages {
+	public static void main(String[] args) throws ArithmeticException,InterruptedException
+	{
+		int a=15;
+		if(a>=18)
+		{
+			System.out.println("Welcome to google");
+			
+		}
+		else
+		{
+			throw new ArithmeticException("You are getting exception");
+		}
+		
+	}
+
+}
